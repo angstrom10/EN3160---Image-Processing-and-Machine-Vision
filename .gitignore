@@ -1,0 +1,46 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+cv/
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Downloaded datasets (large files)
+data/
+datasets/
+
+# Model checkpoints and trained weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Training outputs and logs
+runs/
+logs/
+outputs/
+checkpoints/
+tensorboard/
+
+# Generated plots and reports (uncomment if you don't want to track them)
+# *.png
+# *.jpg
+# *.pdf
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
